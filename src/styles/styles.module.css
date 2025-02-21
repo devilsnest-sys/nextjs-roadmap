@@ -1,0 +1,25 @@
+.roadmapContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .lesson {
+    cursor: pointer;
+    background: #222;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: background 0.3s;
+  }
+  
+  .lesson:hover {
+    background: #444;
+  }
+  
+  .completed {
+    background: #28a745;
+  }
+  
